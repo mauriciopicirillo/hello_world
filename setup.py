@@ -9,12 +9,12 @@ with open('requirements.txt') as f:
 setup(
     name="hello_world",
     version="0.0.1",
-    author="mauricio",
-    author_email="mauriciopicirillo@gmail.com",
+    author="Mauricio",
     description="Entendendo como funciona os pacotes no Python",
     long_description="Criado um Hello World para entender melhor como funciona os pacotes no Python",
     long_description_content_type="text/markdown",
-    url="https://github.com/mauriciopicirillo/hello_world"
-    packages=find_packages('hello_world', "module1_name"),
+    url="https://github.com/mauriciopicirillo/hello_world",
+    packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
+)

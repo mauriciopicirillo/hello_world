@@ -1,1 +1,2 @@
-print("Hello World :)")
+def ola(ola_mundo):
+    print("Hello World :)")
